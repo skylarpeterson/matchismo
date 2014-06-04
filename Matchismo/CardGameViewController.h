@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CardMatchingGame.h"
 
 @interface CardGameViewController : UIViewController
+
+- (void)setMode:(NSInteger)mode;
+- (void)updateUI;
 
 @end
